@@ -75,7 +75,7 @@ sidebar:
       avatar: /img/touxiang.jpg # https://gcore.jsdelivr.net/gh/volantis-x/cdn-org/blog/Logo-NavBar@3x.png
       shape: circle # circle, rectangle
       url: /about/
-      title: whoami
+      title: oxygen
       subtitle:
       jinrishici: true # Poetry Today. You can set a string, and it will be displayed when loading fails.
       social:
@@ -181,3 +181,23 @@ sidebar:
         icon: fa-solid fa-clock WISTERIA
         title: 最近更新
 ############################### Sidebar ############################### > end
+
+comments:
+  service: giscus
+  # giscus
+  # https://giscus.app
+  # https://github.com/laymonage/giscus
+  giscus:
+    # 以下配置按照 yml 格式增删填写即可
+     repo: Oxygen1a1/comment
+     repo-id: R_kgDOJ-oQYg
+     category: Announcements
+     category-id: DIC_kwDOJ-oQYs4CYEa0
+     mapping: "pathname"
+     reactions-enabled: "1"
+     emit-metadata: "0"
+     lang: "zh-CN"
+     #以上配置按照 yml 格式增删填写即可
+    theme:
+      light: "light" # https://gcore.jsdelivr.net/gh/volantis-x/cdn-volantis@master/css/giscus/light.css
+      dark: "dark" # https://gcore.jsdelivr.net/gh/volantis-x/cdn-volantis@master/css/giscus/dark.css
