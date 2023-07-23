@@ -201,3 +201,6 @@ comments:
   theme:
       light: "light" # https://gcore.jsdelivr.net/gh/volantis-x/cdn-volantis@master/css/giscus/light.css
       dark: "dark" # https://gcore.jsdelivr.net/gh/volantis-x/cdn-volantis@master/css/giscus/dark.css
+search:
+  enable: true
+  service: hexo
