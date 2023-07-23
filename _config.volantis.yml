@@ -198,6 +198,6 @@ comments:
      emit-metadata: "0"
      lang: "zh-CN"
      #以上配置按照 yml 格式增删填写即可
-    theme:
+  theme:
       light: "light" # https://gcore.jsdelivr.net/gh/volantis-x/cdn-volantis@master/css/giscus/light.css
       dark: "dark" # https://gcore.jsdelivr.net/gh/volantis-x/cdn-volantis@master/css/giscus/dark.css
