@@ -4,12 +4,9 @@ date: 2023-07-23
 categories: 
   - 游戏安全
 author: oxygen
-tags: 
-  - Tag1
-  - Tag2
 ---
 
-# 0x1 UE5引擎Polygon逆向
+# 0x1 UE5引擎Polygon逆向就找到了万物。
 
 经过前面UE4引擎基础知识,UE引擎逆向的核心是:
 
@@ -19,7 +16,7 @@ tags:
 
 总之一张图概况就是
 
-![image-20221215082418360](./assets/image-20221215082418360.png)
+![image-20221215082418360](/image/image-20221215082418360.jpg)
 
 总之可以这样说,*找到GWorld*,就找到了万物。
 
@@ -189,7 +186,7 @@ struct USkeletalMeshComponent : public USceneComponent {
 
 3x4或者4x3矩阵,有浮点  以及 1 1 1这种如下图
 
-![image-20221215082440383](./assets/image-20221215082440383.png)
+![image-20221215082440383](/image/image-20221215082440383.jpg)
 
 3*4矩阵,而且最后是1 1 1
 
@@ -470,7 +467,7 @@ struct AActor {
 
 角度的计算:
 
-![image-20221215105132700](./assets/image-20221215105132700.png)
+![image-20221215105132700](/image/image-20221215105132700.jpg)
 
 计算这两个角度需要用
 
