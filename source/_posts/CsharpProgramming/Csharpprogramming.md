@@ -1,3 +1,8 @@
+---
+title: Csharp programming
+date: 2023-07-23
+---
+
 # chap_01 C#历史相当于JAVA的JVM
 
 为了对标JAVA,完全是模仿的JAVA;
