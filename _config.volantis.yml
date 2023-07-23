@@ -73,9 +73,9 @@ sidebar:
       class: blogger
       display: [desktop, mobile] # [desktop, mobile]
       avatar: /img/touxiang.jpg # https://gcore.jsdelivr.net/gh/volantis-x/cdn-org/blog/Logo-NavBar@3x.png
-      shape: rectangle # circle, rectangle
+      shape: circle # circle, rectangle
       url: /about/
-      title:
+      title: whoami
       subtitle:
       jinrishici: true # Poetry Today. You can set a string, and it will be displayed when loading fails.
       social:
@@ -129,7 +129,7 @@ sidebar:
       start_color: '#999'
       end_color: '#555'
     # ---------------------------------------
-    # qrcode widget
+    # qrcode widget  打赏
     qrcode:
       class: qrcode
       display: [desktop, mobile] # [desktop, mobile]
@@ -152,7 +152,7 @@ sidebar:
           unit: '篇'
         runtime:
           enable: false
-          data: '2020/01/01'    # 填写建站日期
+          data: '2023/07/23'    # 填写建站日期
           text: '已运行时间：'
           unit: '天'
         wordcount:
