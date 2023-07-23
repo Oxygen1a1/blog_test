@@ -41,7 +41,7 @@ cover:
     home: true
     archive: true
     others: false # can be written in front-matter 'cover: true'
-  background: https://i0.hdslb.com/bfs/album/8d4f2816e9087ee743880763c45ac021e3b3b7a9.jpg
+  background: https://bing.ioliu.cn/v1/rand?w=1920&h=1200
   # background: https://bing.ioliu.cn/v1/rand?w=1920&h=1200
   logo: # https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/Logo-Cover@3x.png
   title: 'oxygen的小屋'
