@@ -13,15 +13,6 @@ navbar:
     - name: 分类
       icon: fa-solid fa-folder-open
       url: categories/
-    - name: 标签
-      icon: fa-solid fa-tags
-      url: tags/
-    - name: 归档
-      icon: fa-solid fa-archive
-      url: archives/
-    - name: 友链
-      icon: fa-solid fa-link
-      url: friends/
     - name: 关于
       icon: fa-solid fa-info-circle
       url: about/
