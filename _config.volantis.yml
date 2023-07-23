@@ -34,4 +34,4 @@ site_footer:
   # You can add your own property here. (Support markdown, for example: br: '<br>')
   br: '<br>'
 cover:
-  scheme: dock # search (搜索), dock (坞), featured (精选), focus (焦点)
+  scheme: search # search (搜索), dock (坞), featured (精选), focus (焦点)
