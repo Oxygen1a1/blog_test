@@ -22,14 +22,10 @@ site_footer:
   # layout of footer: [aplayer, social, license, info, copyright]
   layout: [aplayer, social, license, info, copyright]
   social:
-    - icon: fas fa-rss
-      url: atom.xml
     - icon: fas fa-envelope
       url: mailto:304914289@qq.com
     - icon: fab fa-github
-      url: https://github.com/xaoxuu
-    - icon: fas fa-headphones-alt
-      url: https://music.163.com/#/user/home?id=63035382
+      url: https://github.com/oxygen1a1
   copyright: '[Copyright © 2023-2023 oxygen](/)'
   # You can add your own property here. (Support markdown, for example: br: '<br>')
   br: '<br>'
@@ -79,12 +75,10 @@ sidebar:
       subtitle:
       jinrishici: true # Poetry Today. You can set a string, and it will be displayed when loading fails.
       social:
-        - icon: fa-solid fa-rss
-          url: /atom.xml
         - icon: fa-solid fa-envelope
-          url: mailto:me@xxx.com
+          url: 304914289@qq.com
         - icon: fab fa-github
-          url: https://github.com/volantis-x/
+          url: https://github.com/oxygen1a1
         - icon: fa-solid fa-headphones-alt
           url: /
     # ---------------------------------------
