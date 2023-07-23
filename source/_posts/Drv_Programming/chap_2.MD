@@ -184,7 +184,7 @@ for (int i = 0; i < buf_len; i += sizeof(KEYBOARD_INPUT_DATA));
 
 鼠标过滤和键盘过滤很像,唯一区别就是,鼠标过滤的驱动名称和键盘过滤的命名规则不太一样,键盘是`kdbclass0`,而鼠标则是`PointerClass0`
 
-![image-20230528160307477](./assets/image-20230528160307477-1685260988803-1.png)
+![image-20230528160307477](/image/image-20230528160307477-1685260988803-1.jpg)
 
 一般`PointerClass1`才是用于USB的;
 
@@ -303,9 +303,9 @@ auto readComplete(PDEVICE_OBJECT dev, PIRP irp, PVOID context) -> NTSTATUS {
 
 比如键盘鼠标就是需要先附加到`i8042prt.sys`这个端口总线驱动上面;
 
-![image-20230529095259572](./assets/image-20230529095259572.png)
+![image-20230529095259572](/image/image-20230529095259572.jpg)
 
-![image-20230529095333885](./assets/image-20230529095333885.png)
+![image-20230529095333885](/image/image-20230529095333885.jpg)
 
 其中i8042prt这个是PS/2端口的键盘和鼠标,而kdbhid则是`USB`的键盘; mouhid则是USB链接的鼠标
 
@@ -327,7 +327,7 @@ auto readComplete(PDEVICE_OBJECT dev, PIRP irp, PVOID context) -> NTSTATUS {
 
 但是kdfilt已经消失,猜测可能在`i8042`或者是`kbdhid`中;在`kdbhid.sys`可以找到处理`IOCTL_INTERNAL_KEYBOARD_CONNECT `但是代码过于复杂,没能看懂,
 
-![image-20230529102146149](./assets/image-20230529102146149.png)
+![image-20230529102146149](/image/image-20230529102146149.jpg)
 
 总之,根据已有资料,就在这一步,kdclss提供了一个类服务回调函数,函数定义如下
 
